@@ -10,10 +10,10 @@ class GridScreen extends StatefulWidget {
 
 class _GridScreenState extends State<GridScreen> {
   final List<Map<String, String>> cameras = [
-    {'name': 'Camera 1', 'url': 'http://102.26.24.155:8080/video'},
-    {'name': 'Camera 2', 'url': 'http://102.26.24.155:8080/video'},
-    {'name': 'Camera 3', 'url': 'http://102.26.24.155:8080/video'},
-    {'name': 'Camera 4', 'url': 'http://102.26.24.155:8080/video'},
+    {'name': 'Camera 1', 'url': 'http://YOUR_CAMERA_IP:8080/video'},
+    {'name': 'Camera 2', 'url': 'http://YOUR_CAMERA_IP:8080/video'},
+    {'name': 'Camera 3', 'url': 'http://YOUR_CAMERA_IP:8080/video'},
+    {'name': 'Camera 4', 'url': 'http://YOUR_CAMERA_IP:8080/video'},
   ];
 
   @override
